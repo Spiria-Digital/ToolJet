@@ -35,7 +35,7 @@ export const Inspector = ({
   };
   const [showWidgetDeleteConfirmation, setWidgetDeleteConfirmation] = useState(false);
   const [key, setKey] = React.useState('properties');
-  const [tabHeight, setTabHeight] = React.useState(0);
+  const [_tabHeight, setTabHeight] = React.useState(0);
   const tabsRef = useRef(null);
   const [newComponentName, setNewComponentName] = useState(component.component.name);
   const [inputRef, setInputFocus] = useFocus();

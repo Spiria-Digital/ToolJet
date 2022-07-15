@@ -295,7 +295,7 @@ export function validateEmail(email) {
   return emailRegex.test(email);
 }
 
-export async function executeMultilineJS(_ref, code, editorState, isPreview, confirmed = undefined, mode = '') {
+export async function executeMultilineJS(_ref, code, editorState, isPreview, _confirmed = undefined, mode = '') {
   const { currentState } = _ref.state;
   let result = {},
     error = null;

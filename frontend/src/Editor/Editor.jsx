@@ -11,7 +11,6 @@ import {
 } from '@/_services';
 import { DndProvider } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
-import { computeComponentName } from '@/_helpers/utils';
 import { defaults, cloneDeep, isEqual, isEmpty, debounce } from 'lodash';
 import { Container } from './Container';
 import { EditorKeyHooks } from './EditorKeyHooks';

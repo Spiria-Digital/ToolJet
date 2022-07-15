@@ -13,7 +13,7 @@ export const SelectComponent = ({ options = [], value, onChange, ...restProps })
     placeholder = 'Select..',
     customOption = undefined,
     defaultValue = null,
-    useMenuPortal = true,
+    _useMenuPortal = true,
     maxMenuHeight = 250,
   } = restProps;
 
